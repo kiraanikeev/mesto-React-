@@ -1,9 +1,11 @@
-function Footer() {
+import styles from "./Footer.module.css"
+
+function Footer(props) {
 
 
     return (
-      <div>
-   <p className="footer__text">© 2020 Mesto Russia</p>
+        <div className={styles.footer}>
+   <p className={styles.footer__text}>© 2020 Mesto Russia</p>
   
   
       </div>

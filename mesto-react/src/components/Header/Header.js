@@ -1,17 +1,19 @@
-function Header() {
+import styles from './Header.module.css'
+import logo from "../../images/Vector.png"
+function Header(props) {
 
     
     return (
 
 <div>
-{/* 
+
       <div className={styles.header}>
-      
-     <img src="./images/Vector.png" alt="MESTO" className={styles.header__logo}/> 
+    
+     <img src={logo} alt="MESTO" className={styles.header__logo}/> 
    <div className={styles.header__line}></div>
   
   
-      </div> */}
+      </div>
 
       </div>
     );
