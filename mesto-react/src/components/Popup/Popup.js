@@ -1,6 +1,8 @@
 import styles from "./Popup.module.css";
+import React from "react";
 
 function Popup(props) {
+
   return (
   <div>
 
@@ -50,7 +52,9 @@ function Popup(props) {
 </form>
 </div></div>
 </section>
-<div ></div>
+
+
+
 
     </div>
   );

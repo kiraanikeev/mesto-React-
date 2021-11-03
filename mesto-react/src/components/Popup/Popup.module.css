@@ -215,23 +215,7 @@
     
   
     
-    .popup__name {
-      font-family: Inter;
-      font-style: normal;
-      font-weight: 900;
-      font-size: 24px;
-      line-height: 29px;
-      padding: 34px 0 54px 0;
-      margin: 0;
-      height: 23px;
-    }
-    
-    @media screen and (max-width: 550px) {
-      .popup__name {
-        font-size: 18px;
-        line-height: 22px;
-      }
-    }
+
     
     .popup__line {
       width: 358px;
@@ -271,22 +255,8 @@
       }
     }
     
-    .popup__imge {
-      max-width: 75vw;
-      max-height: 75vh;
-    }
     
-    .popup__containerPhoto {
-      max-width: 75vw;
-      max-height: 75vh;
-      /* background-color: blanchedalmond; */
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      /* padding-left: 36px;
-                                padding-right: 36px; */
-    }
+  
     
     .popup__containerDelete {
       padding-left: 33px;

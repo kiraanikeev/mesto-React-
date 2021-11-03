@@ -64,9 +64,11 @@ React.useEffect(() => {
 
 
       <section className={styles.elements}>
-{cardsArray.map((item)=>{
+{/* {cardsArray.map((item)=>{
       return( <Cards key={item._id} link={item.link} name={item.name}
-       length={item.likes.length}></Cards>)})}
+       length={item.likes.length} handleCardClick={props.handleCardClick}></Cards>)})} */}
+       {cardsArray.map((item)=>{
+      return( <Cards key={item._id} data={item} handleCardClick={props.handleCardClick}></Cards>)})}
  </section>
     </div>
   );
