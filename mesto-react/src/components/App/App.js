@@ -4,7 +4,6 @@ import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import React from "react";
 import { useState } from "react";
-import stylesPopup from "./Popup.module.css";
 import Popup from "../Popup/Popup";
 import ImagePopup from "../ImagePopup/ImagePopup";
 
