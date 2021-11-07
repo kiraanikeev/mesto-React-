@@ -23,13 +23,13 @@ headers: this.headers}
 }
   
 //добавить карточку(post)
-addCardsPost(item){
+addCardsPost({title, link}){
     return fetch(`${this.baseUrl}/cards`,
     {method:'POST',
 headers: this.headers,
 body: JSON.stringify({
-    name: item.title,
-    link: item.link
+    name: title, 
+    link: link, 
 })})
 .then(this.result)
 }
@@ -56,13 +56,13 @@ headers: this.headers})
 
 
 //заменить данные пользователя(patch)
-changeInfo(item){
+changeInfo({ name, about }){
     return fetch(`${this.baseUrl}/users/me`,
     {method:'PATCH',
 headers: this.headers,
 body: JSON.stringify({
-    name:item.name,
-    about:item.info
+    name: name,
+    about:about
 })})
 .then(this.result)
 }
