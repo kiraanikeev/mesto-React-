@@ -9,7 +9,7 @@ import ImagePopup from "../ImagePopup/ImagePopup";
 import { useEffect } from "react";
 import { api } from "../Api/Api";
 import { CurrentUserContext } from "../../contexts/CurrentUserContext";
-
+import '../../fonts/inter.css'; 
 function App() {
 
   const [profileVisible, profileSetVisible] = useState(false);

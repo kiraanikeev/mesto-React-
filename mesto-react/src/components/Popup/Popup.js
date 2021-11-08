@@ -57,8 +57,6 @@ function handleSubmitAvatar(e) {
 function handleAddPlaceSubmit(event){
   event.preventDefault();
   props.handelSetCards({ title, link })
-
-
   props.addPlaceSetVisible(false)
 } 
 

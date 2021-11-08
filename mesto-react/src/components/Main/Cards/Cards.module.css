@@ -55,14 +55,11 @@ height: 19.3px;
 border: none;
 }
 
-
-
 .delete:hover{
-    opacity: 0.6;
     cursor: pointer;
 }
 
-.delete_hidden{
+.deleteHidden{
     visibility: hidden;
 }
 
