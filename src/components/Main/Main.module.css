@@ -21,7 +21,6 @@
   position: relative;
   grid-row: 1 / -1;
   grid-column: 1 / 2;
-  z-index: 1;
 }
 
 @media screen and (max-width: 660px) {
@@ -292,9 +291,9 @@
   right: 34px;
   bottom: 22px;
 }
-.elements{
-  display: grid; 
-  gap: 20px 17px; 
+.elements {
+  display: grid;
+  gap: 20px 17px;
   grid-template-columns: repeat(auto-fill, 282px);
   margin-top: 51px;
   justify-content: center;
